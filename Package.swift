@@ -25,7 +25,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "LyraPaymentSDKBinary",
-            url: "https://raw.githubusercontent.com/MageSantana/ios-sdk/1.0.0/LyraPaymentSDK.xcframework.zip",
+            url: "https://raw.githubusercontent.com/MageSantana/ios-sdk/1.0.1/LyraPaymentSDK.xcframework.zip",
             checksum: "b05ea94b21671e7156cefa0702a3e332050fcacb54fe45bbb633bf7aeb74483e"
         ),
         .target(
