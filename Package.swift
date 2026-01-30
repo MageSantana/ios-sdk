@@ -32,8 +32,8 @@ let package = Package(
             name: "LyraPaymentSDKTarget",
             dependencies: [
                 "LyraPaymentSDKBinary",
-                .product(name: "LyraMaterial", package: "Material-test-spm")
-                .product(name: "SnapKit", pacxage: "Snapkit")
+                .product(name: "LyraMaterial", package: "Material-test-spm"),
+                .product(name: "SnapKit", package: "SnapKit")
             ]
         )
     ]
